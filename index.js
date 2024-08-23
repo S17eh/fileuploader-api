@@ -19,7 +19,7 @@ app.use(express.json());
 app.use("/uploads", express.static("uploads")); // Serve static files from 'uploads' directory
 
 // Routes
-app.get("/", res.json({ message: "Welcome to the file upload API" }));
+// app.get("/", res.json({ message: "Welcome to the file upload API" }));
 app.use("/api", router);
 
 // Error Handling Middleware
